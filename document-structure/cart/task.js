@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const quantity = parseInt(quantityValueElement.textContent);
 
       let cartProduct = cartProductsContainer.querySelector(
-        '.cart__product[data-id="${productId}"]'
+        `.cart__product[data-id="${productId}"]`
       );
 
       if (cartProduct) {
